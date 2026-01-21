@@ -1,0 +1,32 @@
+{
+  "deluxeKing": {
+    "name": "Deluxe King Product",
+    "description": "Spacious king room with premium amenities",
+    "capacity": 4,
+    "roomItemId": "roomItem-2"
+  },
+  "familySuite": {
+    "name": "Family Suite",
+    "description": "Large suite perfect for families with children",
+    "capacity": 6,
+    "roomItemId": "roomItem-5"
+  },
+  "bedAndBreakfast": {
+    "name": "Bed & Breakfast",
+    "description": "Start your day off right with a delicious breakfast included in your stay. This package combines a comfortable night's sleep with a hearty morning meal, giving you the perfect balance of convenience and value. Ideal for guests looking for an all-in-one experience."
+  },
+  "guestDetails": {
+    "title": "Mr",
+    "firstName": "James",
+    "lastName": "Mitchell",
+    "email": "james.mitchell@example.com",
+    "mobile": "0412345678",
+    "address": "123 Collins Street, Melbourne VIC 3000"
+  },
+  "cardDetails": {
+    "cardNumber": "4917 6100 0000 0000",
+    "expiryDate": "03/30",
+    "cvc": "737",
+    "nameOnCard": "James Mitchell"
+  }
+}

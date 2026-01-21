@@ -1,0 +1,43 @@
+{
+  "name": "booking-playwright-ts",
+  "version": "1.0.0",
+  "description": "Online Booking System test automation framework made with Playwright TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:desktop": "playwright test --project=chromium tests/booking.spec.ts",
+    "test:mobile": "playwright test --project='Mobile Chrome' tests/mobile-booking.spec.ts",
+    "test:chrome": "playwright test --project=chromium tests/booking.spec.ts",
+    "test:all": "playwright test",
+    "test:ci:desktop": "playwright test --project=chromium tests/booking.spec.ts --reporter=html,junit",
+    "test:ci:mobile": "playwright test --project='Mobile Chrome' tests/mobile-booking.spec.ts --reporter=html,junit",
+    "test:report": "playwright show-report",
+    "test:codegen": "playwright codegen https://alphaibe12.rmscloud.com/22749/1",
+    "install:browsers": "playwright install",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "test-automation",
+    "booking-system",
+    "e2e-testing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
